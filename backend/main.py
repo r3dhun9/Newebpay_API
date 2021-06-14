@@ -23,7 +23,6 @@ def index():
     parse_data = gen_query_string(data)
     trade_info = create_mpg_aes_encrypt(parse_data.encode())
     trade_sha = create_mpg_sha_encrypt(trade_info)
-    print(trade_info, trade_sha)
     return render_template("index.html", trade_info=trade_info, trade_sha=trade_sha)
 
 @app.route("/checkout", methods=['POST'])
