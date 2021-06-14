@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+  </head>
+  <body>
+    <form action="https://ccore.newebpay.com/MPG/mpg_gateway" method="POST">
+        <input type="text" name="MerchantID" value="MS120725784"/>
+        <input type="text" name="TradeInfo" value="{{ trade_info }}"/>
+        <input type="text" name="TradeSha" value="{{ trade_sha }}"/>
+        <input type="text" name="Version" value="1.6"/>
+        <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>

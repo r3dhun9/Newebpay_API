@@ -1,0 +1,6 @@
+.DS_Store
+/frontend/dist/
+/frontend/node_modules
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/forntend/yarn-error.log*
